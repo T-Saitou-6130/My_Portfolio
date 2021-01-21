@@ -51,17 +51,34 @@ header .main_desc {
 
 main {
 	width: 100%;
-	
+	padding-bottom: 60px;
+	margin-bottom: 60px;
 }
 .main_content {
 	width: 100%;
-	height: 1000px;
+	height: auto;
 }
 .container {
 	width: 80%;
 	margin: 40px auto 40px auto;
+	padding: 40px;
 	background-color: rgba(255,255,255,0.5);
+	overflow: hidden;
 }
+.sub_container {
+	width: 300px;
+	height: 400px;
+	background-color: rgba(255,255,255,0.5);
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+}
+.work_thumbnail {
+	width: 100%;
+	height: auto;
+}
+
 .section_title {
 	color: #000;
 	font-size: 40px;
@@ -69,11 +86,18 @@ main {
 .section_content {
 	font-size: 15px;
 }
+.emphasis {
+	color: red;
+	font-size: 20px;
+}
 
 footer {
 	width: 100%;
 	height: 100px;
-	margin: 50px 0;
+	padding: 50px 0;
+	margin: 0 auto;
+	clear: both;
 	text-align: center;
+	background-color: rgba(255,255,255,0.5);
 }
 
