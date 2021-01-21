@@ -3,12 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/977ae7c622.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css">
 	<title>T.Saito's Portfolio</title>
 </head>
 <body>
 	<!-- header part -->
-	<header>
+	<header clearfix>
 		<!-- title -->
 		<div class="title">
 			<h1 class="main_title">
@@ -22,24 +23,24 @@
 	<div class="navigation">
 		<ul class="nav_list">
 			<li class="nav_list_item">
-				<a href="index.html">Home</a>
+				<a href="index.html"><i class="fas fa-home"></i> Home</a>
 			</li>
 			<li class="nav_list_item">
-				<a href="#Profile">Profile</a>
+				<a href="#Profile"><i class="fas fa-user"></i> Profile</a>
 			</li>
 			<li class="nav_list_item">
-				<a href="#Works">Works</a>
+				<a href="#Works"><i class="fas fa-file"></i> Works</a>
 			</li>
 			<li class="nav_list_item">
-				<a href="#Contact">Contact</a>
+				<a href="#Contact"><i class="fas fa-id-card"></i> Contact</a>
 			</li>
 		</ul>
 	</div>
 	<!-- main part -->
 	<main clearfix>
-		<div class="main_content">
+		<div class="main_content clearfix">
 			<div class="container">
-				<h1 id="Profile" class="section_title">Profile</h1>
+				<h1 id="Profile" class="section_title"><i class="fas fa-user"></i> Profile</h1>
 				<h2 class="section_content">
 					名前　：Takeshi Saito<br>
 					<br>
@@ -53,15 +54,20 @@
 				</h2>
 			</div>
 			<div class="container">
-				<h1 id="Works" class="section_title">Works</h1>
-				<h2 class="section_content">
-					
-				</h2>
+				<h1 id="Works" class="section_title"><i class="fas fa-file"></i>
+ Works</h1>
+				<ul class="section_content">
+					<li class="sub_container">
+						<a href="https://github.com/T-Saitou-6130/My_Portfolio">
+							<img src="https://t-saitou-6130.github.io/My_Portfolio/images/work_portfolio.png" alt="ポートフォリオ" class="work_thumbnail">ポートフォリオ
+						</a>
+					</li>
+				</ul>
 			</div>
 			<div class="container">
-				<h1 id="Contact" class="section_title">Contact</h1>
+				<h1 id="Contact" class="section_title"><i class="fas fa-id-card"></i> Contact</h1>
 				<h2 class="section_content">
-					連絡は<span><a href="mailto:t_s_needle6130&#64;gmail.com">こちら</a></span>までお願いします。
+					連絡は<span class="emphasis"><a href="mailto:t_s_needle6130&#64;gmail.com">こちら</a></span>までお願いします。
 
 				</h2>
 			</div>
